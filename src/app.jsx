@@ -225,128 +225,128 @@ const INITIAL_LOGS = [
 const Icons = {
   Wrench: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+      <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
     </svg>
   ),
   Gauge: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="m12 14 4-4"/>
-      <path d="M3.34 19a10 10 0 1 1 17.32 0"/>
+      <path d="m12 14 4-4" />
+      <path d="M3.34 19a10 10 0 1 1 17.32 0" />
     </svg>
   ),
   Fuel: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M3 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18"/>
-      <path d="M15 10h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L19 5"/>
-      <path d="M3 11h12"/>
-      <circle cx="9" cy="7" r="1"/>
+      <path d="M3 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18" />
+      <path d="M15 10h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L19 5" />
+      <path d="M3 11h12" />
+      <circle cx="9" cy="7" r="1" />
     </svg>
   ),
   Car: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/>
-      <circle cx="7" cy="17" r="2"/>
-      <path d="M9 17h6"/>
-      <circle cx="17" cy="17" r="2"/>
+      <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+      <circle cx="7" cy="17" r="2" />
+      <path d="M9 17h6" />
+      <circle cx="17" cy="17" r="2" />
     </svg>
   ),
   ShieldCheck: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
-      <path d="m9 12 2 2 4-4"/>
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
+      <path d="m9 12 2 2 4-4" />
     </svg>
   ),
   Calendar: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
-      <line x1="16" x2="16" y1="2" y2="6"/>
-      <line x1="8" x2="8" y1="2" y2="6"/>
-      <line x1="3" x2="21" y1="10" y2="10"/>
+      <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+      <line x1="16" x2="16" y1="2" y2="6" />
+      <line x1="8" x2="8" y1="2" y2="6" />
+      <line x1="3" x2="21" y1="10" y2="10" />
     </svg>
   ),
   DollarSign: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <line x1="12" x2="12" y1="2" y2="22"/>
-      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+      <line x1="12" x2="12" y1="2" y2="22" />
+      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
     </svg>
   ),
   Plus: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <line x1="12" x2="12" y1="5" y2="19"/>
-      <line x1="5" x2="19" y1="12" y2="12"/>
+      <line x1="12" x2="12" y1="5" y2="19" />
+      <line x1="5" x2="19" y1="12" y2="12" />
     </svg>
   ),
   Trash: ({ className = "w-4 h-4" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <polyline points="3 6 5 6 21 6"/>
-      <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+      <polyline points="3 6 5 6 21 6" />
+      <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
     </svg>
   ),
   Sparkles: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+      <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z" />
     </svg>
   ),
   AlertTriangle: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
-      <line x1="12" x2="12" y1="9" y2="13"/>
-      <line x1="12" x2="12.01" y1="17" y2="17"/>
+      <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
+      <line x1="12" x2="12" y1="9" y2="13" />
+      <line x1="12" x2="12.01" y1="17" y2="17" />
     </svg>
   ),
   OilDrop: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+      <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
     </svg>
   ),
   Disc: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <circle cx="12" cy="12" r="10"/>
-      <circle cx="12" cy="12" r="3"/>
+      <circle cx="12" cy="12" r="10" />
+      <circle cx="12" cy="12" r="3" />
     </svg>
   ),
   Volume2: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
-      <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
-      <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+      <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+      <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
     </svg>
   ),
   VolumeX: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
-      <line x1="23" x2="17" y1="9" y2="15"/>
-      <line x1="17" x2="23" y1="9" y2="15"/>
+      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+      <line x1="23" x2="17" y1="9" y2="15" />
+      <line x1="17" x2="23" y1="9" y2="15" />
     </svg>
   ),
   Check: ({ className = "w-4 h-4" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <polyline points="20 6 9 17 4 12"/>
+      <polyline points="20 6 9 17 4 12" />
     </svg>
   ),
   Search: ({ className = "w-4 h-4" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <circle cx="11" cy="11" r="8"/>
-      <line x1="21" x2="16.65" y1="21" y2="16.65"/>
+      <circle cx="11" cy="11" r="8" />
+      <line x1="21" x2="16.65" y1="21" y2="16.65" />
     </svg>
   ),
   RefreshCw: ({ className = "w-4 h-4" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/>
-      <path d="M21 3v5h-5"/>
-      <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/>
-      <path d="M8 16H3v5"/>
+      <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" />
+      <path d="M21 3v5h-5" />
+      <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" />
+      <path d="M8 16H3v5" />
     </svg>
   ),
   Activity: ({ className = "w-5 h-5" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+      <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
     </svg>
   ),
   ArrowUpRight: ({ className = "w-4 h-4" }) => (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <line x1="7" x2="17" y1="17" y2="7"/>
-      <polyline points="7 7 17 7 17 17"/>
+      <line x1="7" x2="17" y1="17" y2="7" />
+      <polyline points="7 7 17 7 17 17" />
     </svg>
   )
 };
@@ -782,9 +782,9 @@ function AnalyticsTelemetryChart({ logs }) {
     { month: 'May 26', km: 1100, fuelCost: 145, serviceCost: 0, consumption: 6.6 },
     { month: 'Jun 26', km: 1250, fuelCost: 160, serviceCost: 48, consumption: 6.5 },
     { month: 'Jul 26', km: 1400, fuelCost: 180, serviceCost: 245, consumption: 6.4 },
-    { month: 'Aug 26', km: 980,  fuelCost: 125, serviceCost: 0, consumption: 6.3 },
+    { month: 'Aug 26', km: 980, fuelCost: 125, serviceCost: 0, consumption: 6.3 },
     { month: 'Sep 26', km: 1320, fuelCost: 172, serviceCost: 115, consumption: 6.4 },
-    { month: 'Oct 26', km: 650,  fuelCost: 85,  serviceCost: 0, consumption: 6.2 }
+    { month: 'Oct 26', km: 650, fuelCost: 85, serviceCost: 0, consumption: 6.2 }
   ];
 
   const maxVal = activeTab === 'consumption'
@@ -844,21 +844,19 @@ function AnalyticsTelemetryChart({ logs }) {
         <div className="flex items-center space-x-1 p-1 bg-carbon-900 border border-white/10 rounded-lg">
           <button
             onClick={() => setActiveTab('consumption')}
-            className={`px-3 py-1 rounded text-xs font-mono font-medium transition-all ${
-              activeTab === 'consumption'
+            className={`px-3 py-1 rounded text-xs font-mono font-medium transition-all ${activeTab === 'consumption'
                 ? 'bg-electric text-carbon-950 font-bold shadow-neon-blue'
                 : 'text-slate-400 hover:text-white'
-            }`}
+              }`}
           >
             L/100km Trend
           </button>
           <button
             onClick={() => setActiveTab('expenses')}
-            className={`px-3 py-1 rounded text-xs font-mono font-medium transition-all ${
-              activeTab === 'expenses'
+            className={`px-3 py-1 rounded text-xs font-mono font-medium transition-all ${activeTab === 'expenses'
                 ? 'bg-racing text-white font-bold shadow-neon-red'
                 : 'text-slate-400 hover:text-white'
-            }`}
+              }`}
           >
             Total Spend (€)
           </button>
@@ -1078,11 +1076,10 @@ function MaintenanceHistoryTimeline({ logs, onDeleteLog, onAddNewRecord }) {
             <button
               key={tab.id}
               onClick={() => setFilterType(tab.id)}
-              className={`px-2.5 py-1 rounded-lg text-xs font-mono font-medium transition-all ${
-                filterType === tab.id
+              className={`px-2.5 py-1 rounded-lg text-xs font-mono font-medium transition-all ${filterType === tab.id
                   ? 'bg-racing text-white shadow-neon-red'
                   : 'bg-carbon-900 text-slate-400 hover:text-white border border-white/5'
-              }`}
+                }`}
             >
               {tab.label}
             </button>
@@ -1325,11 +1322,10 @@ function AddRecordModal({ isOpen, onClose, onSave, currentMileage }) {
                       setType(item.id);
                       if (item.id === 'fuel' && !title) setTitle('Full Tank Fuel Fill-up');
                     }}
-                    className={`py-2 px-1 flex flex-col items-center justify-center rounded-xl border text-xs font-mono transition-all ${
-                      isSelected
+                    className={`py-2 px-1 flex flex-col items-center justify-center rounded-xl border text-xs font-mono transition-all ${isSelected
                         ? 'bg-racing text-white border-racing shadow-neon-red font-bold'
                         : 'bg-carbon-900 text-slate-400 border-white/5 hover:border-white/20'
-                    }`}
+                      }`}
                   >
                     <Icon className="w-4 h-4 mb-1" />
                     <span>{item.label}</span>
@@ -1620,7 +1616,7 @@ function ShiftLogApp() {
   const [vehicles, setVehicles] = useState(() => {
     const saved = localStorage.getItem('shiftlog_vehicles');
     if (saved) {
-      try { return JSON.parse(saved); } catch (e) {}
+      try { return JSON.parse(saved); } catch (e) { }
     }
     return INITIAL_VEHICLES;
   });
@@ -1634,7 +1630,7 @@ function ShiftLogApp() {
   const [logs, setLogs] = useState(() => {
     const saved = localStorage.getItem('shiftlog_logs');
     if (saved) {
-      try { return JSON.parse(saved); } catch (e) {}
+      try { return JSON.parse(saved); } catch (e) { }
     }
     return INITIAL_LOGS;
   });
@@ -1850,10 +1846,10 @@ function ShiftLogApp() {
 
       {/* ================= 2. MAIN BENTO-BOX DASHBOARD GRID ================= */}
       <main className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 pt-4 sm:pt-6 space-y-5 sm:space-y-6">
-        
+
         {/* ROW 1: VEHICLE HERO CARD & STATUS GAUGES */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 sm:gap-6">
-          
+
           {/* VEHICLE PROFILE HERO CARD (5 Cols) */}
           <div className="lg:col-span-5 cockpit-card p-4 sm:p-6 flex flex-col justify-between relative overflow-hidden group">
             {/* Top Badge & Plate Bar */}
@@ -1890,7 +1886,7 @@ function ShiftLogApp() {
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-carbon-950 via-transparent to-transparent opacity-80" />
-              
+
               {/* Overlay Specifications Badge */}
               <div className="absolute bottom-2 sm:bottom-3 left-2 sm:left-3 right-2 sm:right-3 flex items-center justify-between text-[11px] sm:text-xs font-mono backdrop-blur-md bg-carbon-900/80 p-2 sm:p-2.5 rounded-lg border border-white/10">
                 <div className="flex items-center space-x-2 sm:space-x-3 truncate mr-1">
@@ -2028,3 +2024,6 @@ function ShiftLogApp() {
 const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement);
 root.render(<ShiftLogApp />);
+git remote set - url origin https://github.com/VincentProchazka/kody.github.io.git
+git push - u origin main--force
+
