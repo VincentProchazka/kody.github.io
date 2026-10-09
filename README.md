@@ -1,10 +1,10 @@
 # 🏎️ ShiftLog | Personal Garage & Vehicle Maintenance Tracker
 
-[![Deploy to GitHub Pages](https://github.com/VincentProchazka/shiftlog/actions/workflows/deploy.yml/badge.svg)](https://github.com/VincentProchazka/shiftlog/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/VincentProchazka/kody.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/VincentProchazka/kody.github.io/actions/workflows/deploy.yml)
 
 A high-tech automotive telemetry cockpit and personal vehicle maintenance tracker built with React, Tailwind CSS, LocalStorage persistence, and Web Audio API acoustics.
 
-🔗 **Live GitHub Pages URL:** [https://VincentProchazka.github.io/shiftlog/](https://VincentProchazka.github.io/shiftlog/)
+🔗 **Live GitHub Pages URL:** [https://vincentprochazka.github.io/kody.github.io/](https://vincentprochazka.github.io/kody.github.io/)
 
 ---
 
