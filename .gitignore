@@ -1,0 +1,9 @@
+# Logs & Temp
+*.log
+screenshot*.png
+.DS_Store
+Thumbs.db
+
+# Dependencies (if any added in future)
+node_modules/
+dist/
