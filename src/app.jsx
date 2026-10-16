@@ -2024,6 +2024,5 @@ function ShiftLogApp() {
 const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement);
 root.render(<ShiftLogApp />);
-git remote set - url origin https://github.com/VincentProchazka/kody.github.io.git
+https://github.com/VincentProchazka/kody.github.io.git
 git push - u origin main--force
-
