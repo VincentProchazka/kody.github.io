@@ -845,8 +845,8 @@ function AnalyticsTelemetryChart({ logs }) {
           <button
             onClick={() => setActiveTab('consumption')}
             className={`px-3 py-1 rounded text-xs font-mono font-medium transition-all ${activeTab === 'consumption'
-                ? 'bg-electric text-carbon-950 font-bold shadow-neon-blue'
-                : 'text-slate-400 hover:text-white'
+              ? 'bg-electric text-carbon-950 font-bold shadow-neon-blue'
+              : 'text-slate-400 hover:text-white'
               }`}
           >
             L/100km Trend
@@ -854,8 +854,8 @@ function AnalyticsTelemetryChart({ logs }) {
           <button
             onClick={() => setActiveTab('expenses')}
             className={`px-3 py-1 rounded text-xs font-mono font-medium transition-all ${activeTab === 'expenses'
-                ? 'bg-racing text-white font-bold shadow-neon-red'
-                : 'text-slate-400 hover:text-white'
+              ? 'bg-racing text-white font-bold shadow-neon-red'
+              : 'text-slate-400 hover:text-white'
               }`}
           >
             Total Spend (€)
@@ -1077,8 +1077,8 @@ function MaintenanceHistoryTimeline({ logs, onDeleteLog, onAddNewRecord }) {
               key={tab.id}
               onClick={() => setFilterType(tab.id)}
               className={`px-2.5 py-1 rounded-lg text-xs font-mono font-medium transition-all ${filterType === tab.id
-                  ? 'bg-racing text-white shadow-neon-red'
-                  : 'bg-carbon-900 text-slate-400 hover:text-white border border-white/5'
+                ? 'bg-racing text-white shadow-neon-red'
+                : 'bg-carbon-900 text-slate-400 hover:text-white border border-white/5'
                 }`}
             >
               {tab.label}
@@ -1323,8 +1323,8 @@ function AddRecordModal({ isOpen, onClose, onSave, currentMileage }) {
                       if (item.id === 'fuel' && !title) setTitle('Full Tank Fuel Fill-up');
                     }}
                     className={`py-2 px-1 flex flex-col items-center justify-center rounded-xl border text-xs font-mono transition-all ${isSelected
-                        ? 'bg-racing text-white border-racing shadow-neon-red font-bold'
-                        : 'bg-carbon-900 text-slate-400 border-white/5 hover:border-white/20'
+                      ? 'bg-racing text-white border-racing shadow-neon-red font-bold'
+                      : 'bg-carbon-900 text-slate-400 border-white/5 hover:border-white/20'
                       }`}
                   >
                     <Icon className="w-4 h-4 mb-1" />
@@ -2024,5 +2024,3 @@ function ShiftLogApp() {
 const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement);
 root.render(<ShiftLogApp />);
-https://github.com/VincentProchazka/kody.github.io.git
-git push - u origin main--force
